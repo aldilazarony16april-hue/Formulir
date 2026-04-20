@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Form Pendataan Bluu Nova Coffee</title>
+</head>
+<body>
+    <h2>Form Pendataan Usaha Kuliner</h2>
+    
+    <form>
+        <label for="nama">Nama Pemilik</label><br>
+        <input type="text" name="nama" id="nama" placeholder="Masukkan nama Anda"><br><br>
+
+        <label for="usaha">Nama Usaha Kuliner</label><br>
+        <input type="text" name="usaha" id="usaha" value="Bluu Nova Coffee"><br><br>
+
+        <label for="alamat">Alamat Usaha</label><br>
+        <textarea name="alamat" id="alamat" rows="4" cols="30" placeholder="Jl. Alamat Lengkap..."></textarea><br><br>
+
+        <label for="kota">Lokasi Kota</label><br>
+        <select name="kota" id="kota">
+            <option value="medan">Medan</option>
+            <option value="pekanbaru">Pekanbaru</option>
+            <option value="teluk-kuantan">Teluk Kuantan</option>
+        </select><br><br>
+
+        <label>Jenis Usaha</label><br>
+        <input type="radio" name="jenis" value="warung"> Warung Makan<br>
+        <input type="radio" name="jenis" value="cafe" checked> Cafe<br>
+        <input type="radio" name="jenis" value="restoran"> Restoran<br><br>
+
+        <input type="submit" value="Kirimkan Data">
+    </form>
+</body>
+</html>
